@@ -2,5 +2,6 @@
     <element label="Customer Defined" max_length="40" name="u_customer_defined" type="collection">
         <element label="CD1" max_length="40" name="u_cd1" type="string"/>
         <element label="CD2" max_length="40" name="u_cd2" type="integer"/>
+        <element label="CD3" max_length="80" name="u_cd3" type="string"/>
     </element>
 </database>

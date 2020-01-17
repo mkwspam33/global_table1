@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Customer Defined" language="en" table="u_customer_defined">
+    <sys_documentation element="u_cd3" label="CD3" language="en" table="u_customer_defined">
         <sys_documentation action="INSERT_OR_UPDATE">
             <claim/>
-            <element/>
+            <element>u_cd3</element>
             <help/>
             <hint/>
-            <label>Customer Defined</label>
+            <label>CD3</label>
             <language>en</language>
             <name>u_customer_defined</name>
-            <plural>Customer Defined</plural>
+            <plural>CD3s</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-01-17 17:29:56</sys_created_on>
-            <sys_id>78e2719377120010ca3ab5b2681061fc</sys_id>
+            <sys_created_on>2020-01-17 18:03:33</sys_created_on>
+            <sys_id>e443f59377120010ca3ab5b2681061df</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Customer Defined</sys_name>
+            <sys_name>CD3</sys_name>
             <sys_package display_value="Global Table1" source="e12b21d777120010ca3ab5b26810619a">e12b21d777120010ca3ab5b26810619a</sys_package>
             <sys_policy/>
             <sys_scope display_value="Global Table1">e12b21d777120010ca3ab5b26810619a</sys_scope>
-            <sys_update_name>sys_documentation_u_customer_defined__en</sys_update_name>
+            <sys_update_name>sys_documentation_u_customer_defined_u_cd3_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-01-17 17:29:56</sys_updated_on>
+            <sys_updated_on>2020-01-17 18:03:33</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
