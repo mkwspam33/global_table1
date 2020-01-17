@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="INSERT_OR_UPDATE">
+        <claim/>
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>u_customer_defined</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-17 17:29:56</sys_created_on>
+        <sys_id>409ba5d777120010ca3ab5b268106112</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_customer_defined</sys_name>
+        <sys_package display_value="Global Table1" source="e12b21d777120010ca3ab5b26810619a">e12b21d777120010ca3ab5b26810619a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Table1">e12b21d777120010ca3ab5b26810619a</sys_scope>
+        <sys_update_name>ua_table_licensing_config_409ba5d777120010ca3ab5b268106112</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-17 17:29:56</sys_updated_on>
+    </ua_table_licensing_config>
+</record_update>
