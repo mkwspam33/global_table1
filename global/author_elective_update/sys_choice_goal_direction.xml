@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="direction" table="goal" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>direction</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Maximize</label>
+            <language>en</language>
+            <name>goal</name>
+            <sequence>0</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2019-12-17 18:43:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path/>
+            <sys_id>e9335a1d2cf10010ddd72370957c1a54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2019-12-17 18:43:55</sys_updated_on>
+            <value>increase</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>direction</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Minimize</label>
+            <language>en</language>
+            <name>goal</name>
+            <sequence>1</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2019-12-17 18:43:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path/>
+            <sys_id>2d335a1d2cf10010ddd72370957c1a54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2019-12-17 18:43:55</sys_updated_on>
+            <value>decrease</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <claim>[{"id":"e12b21d777120010ca3ab5b26810619a","timestamp":1579284768617,"version":"1.0.0"},{"id":"com.snc.organization_extension","timestamp":1579284768609,"version":"1.0.0"}]</claim>
+            <element>direction</element>
+            <name>goal</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2019-12-17 18:43:55</sys_created_on>
+            <sys_id>21335a1d2cf10010ddd72370957c1a55</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>direction</sys_name>
+            <sys_package display_value="Global Table1" source="e12b21d777120010ca3ab5b26810619a">e12b21d777120010ca3ab5b26810619a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Global Table1">e12b21d777120010ca3ab5b26810619a</sys_scope>
+            <sys_update_name>sys_choice_goal_direction</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-17 18:12:48</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

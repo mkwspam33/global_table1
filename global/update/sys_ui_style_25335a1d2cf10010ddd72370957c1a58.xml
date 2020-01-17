@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <claim>[{"id":"e12b21d777120010ca3ab5b26810619a","timestamp":1579284769761,"version":"1.0.0"},{"id":"com.snc.organization_extension","timestamp":1579284769753,"version":"1.0.0"}]</claim>
+        <element>state</element>
+        <name>goal</name>
+        <style>background-color:lightgreen</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2019-12-17 18:43:55</sys_created_on>
+        <sys_id>25335a1d2cf10010ddd72370957c1a58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>goal</sys_name>
+        <sys_package display_value="Global Table1" source="e12b21d777120010ca3ab5b26810619a">e12b21d777120010ca3ab5b26810619a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Table1">e12b21d777120010ca3ab5b26810619a</sys_scope>
+        <sys_update_name>sys_ui_style_25335a1d2cf10010ddd72370957c1a58</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-17 18:12:49</sys_updated_on>
+        <value>achieved</value>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=25335a1d2cf10010ddd72370957c1a58"/>
+</record_update>

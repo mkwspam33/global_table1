@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" claim="[{&quot;id&quot;:&quot;e12b21d777120010ca3ab5b26810619a&quot;,&quot;timestamp&quot;:1579284774087,&quot;version&quot;:&quot;1.0.0&quot;},{&quot;id&quot;:&quot;com.snc.organization_extension&quot;,&quot;timestamp&quot;:1579284774079,&quot;version&quot;:&quot;1.0.0&quot;}]" label="Goal" max_length="40" name="goal" sizeclass="5" type="collection">
+        <element attributes="ignore_filter_on_new=true" claim="[{&quot;id&quot;:&quot;e12b21d777120010ca3ab5b26810619a&quot;,&quot;timestamp&quot;:1579284770307,&quot;version&quot;:&quot;1.0.0&quot;},{&quot;id&quot;:&quot;com.snc.organization_extension&quot;,&quot;timestamp&quot;:1579284770299,&quot;version&quot;:&quot;1.0.0&quot;}]" default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element claim="[{&quot;id&quot;:&quot;e12b21d777120010ca3ab5b26810619a&quot;,&quot;timestamp&quot;:1579284771013,&quot;version&quot;:&quot;1.0.0&quot;},{&quot;id&quot;:&quot;com.snc.organization_extension&quot;,&quot;timestamp&quot;:1579284771006,&quot;version&quot;:&quot;1.0.0&quot;}]" label="Actual achievement till date" max_length="40" name="actual_achievement_till_date" type="float"/>
+        <element attributes="edge_encryption_enabled=true" claim="[{&quot;id&quot;:&quot;e12b21d777120010ca3ab5b26810619a&quot;,&quot;timestamp&quot;:1579284774390,&quot;version&quot;:&quot;1.0.0&quot;},{&quot;id&quot;:&quot;com.snc.organization_extension&quot;,&quot;timestamp&quot;:1579284774382,&quot;version&quot;:&quot;1.0.0&quot;}]" label="Comments" max_length="1000" name="comments" type="string"/>
+        <element choice="3" claim="[{&quot;id&quot;:&quot;e12b21d777120010ca3ab5b26810619a&quot;,&quot;timestamp&quot;:1579284768896,&quot;version&quot;:&quot;1.0.0&quot;},{&quot;id&quot;:&quot;com.snc.organization_extension&quot;,&quot;timestamp&quot;:1579284768888,&quot;version&quot;:&quot;1.0.0&quot;}]" label="Direction" max_length="40" name="direction" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Maximize" sequence="0" value="increase"/>
+                <element inactive_on_update="false" label="Minimize" sequence="1" value="decrease"/>
+            </choice>
+        </element>
+        <element claim="[{&quot;id&quot;:&quot;e12b21d777120010ca3ab5b26810619a&quot;,&quot;timestamp&quot;:1579284769224,&quot;version&quot;:&quot;1.0.0&quot;},{&quot;id&quot;:&quot;com.snc.organization_extension&quot;,&quot;timestamp&quot;:1579284769217,&quot;version&quot;:&quot;1.0.0&quot;}]" label="Planned achievement" max_length="40" name="estimated_achievement" type="float"/>
+        <element choice="3" claim="[{&quot;id&quot;:&quot;e12b21d777120010ca3ab5b26810619a&quot;,&quot;timestamp&quot;:1579284770714,&quot;version&quot;:&quot;1.0.0&quot;},{&quot;id&quot;:&quot;com.snc.organization_extension&quot;,&quot;timestamp&quot;:1579284770707,&quot;version&quot;:&quot;1.0.0&quot;}]" label="Goal Indicator" max_length="40" name="goal_indicator" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Total Applications" sequence="0" value="total_applications"/>
+                <element inactive_on_update="false" label="Total Cost" sequence="1" value="total_cost"/>
+                <element inactive_on_update="false" label="Opex" sequence="2" value="opex"/>
+                <element inactive_on_update="false" label="Capex" sequence="3" value="capex"/>
+                <element inactive_on_update="false" label="Cloud Applications" sequence="4" value="cloud_applications"/>
+                <element inactive_on_update="false" label="Homegrown Applications" sequence="5" value="homegrown_applications"/>
+                <element inactive_on_update="false" label="Support Cost" sequence="6" value="support_cost"/>
+                <element inactive_on_update="false" label="Labor Cost" sequence="7" value="labor_cost"/>
+                <element inactive_on_update="false" label="Standards Compliance" sequence="8" value="standards_compliance"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" claim="[{&quot;id&quot;:&quot;e12b21d777120010ca3ab5b26810619a&quot;,&quot;timestamp&quot;:1579284769553,&quot;version&quot;:&quot;1.0.0&quot;},{&quot;id&quot;:&quot;com.snc.organization_extension&quot;,&quot;timestamp&quot;:1579284769546,&quot;version&quot;:&quot;1.0.0&quot;}]" label="Owner" max_length="32" name="goal_owner" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" claim="[{&quot;id&quot;:&quot;e12b21d777120010ca3ab5b26810619a&quot;,&quot;timestamp&quot;:1579284768425,&quot;version&quot;:&quot;1.0.0&quot;},{&quot;id&quot;:&quot;com.snc.organization_extension&quot;,&quot;timestamp&quot;:1579284768417,&quot;version&quot;:&quot;1.0.0&quot;}]" display="true" label="Short description" max_length="80" name="short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" claim="[{&quot;id&quot;:&quot;e12b21d777120010ca3ab5b26810619a&quot;,&quot;timestamp&quot;:1579284771709,&quot;version&quot;:&quot;1.0.0&quot;},{&quot;id&quot;:&quot;com.snc.organization_extension&quot;,&quot;timestamp&quot;:1579284771702,&quot;version&quot;:&quot;1.0.0&quot;}]" default="pending" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="1" value="pending"/>
+                <element inactive_on_update="false" label="Achieved" sequence="2" value="achieved"/>
+                <element inactive_on_update="false" label="Not Achieved" sequence="3" value="not_achieved"/>
+            </choice>
+        </element>
+        <element choice="3" claim="[{&quot;id&quot;:&quot;e12b21d777120010ca3ab5b26810619a&quot;,&quot;timestamp&quot;:1579284772996,&quot;version&quot;:&quot;1.0.0&quot;},{&quot;id&quot;:&quot;com.snc.organization_extension&quot;,&quot;timestamp&quot;:1579284772988,&quot;version&quot;:&quot;1.0.0&quot;}]" label="Status indicator" max_length="40" name="status_indicator" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Red" sequence="0" value="red"/>
+                <element inactive_on_update="false" label="Yellow" sequence="1" value="yellow"/>
+                <element inactive_on_update="false" label="Green" sequence="2" value="green"/>
+            </choice>
+        </element>
+        <element claim="[{&quot;id&quot;:&quot;e12b21d777120010ca3ab5b26810619a&quot;,&quot;timestamp&quot;:1579284775064,&quot;version&quot;:&quot;1.0.0&quot;},{&quot;id&quot;:&quot;com.snc.organization_extension&quot;,&quot;timestamp&quot;:1579284775056,&quot;version&quot;:&quot;1.0.0&quot;}]" default="global" hint="Domain to which the goal belongs" label="Domain" max_length="32" name="sys_domain" type="domain_id"/>
+        <element attributes="case_sensitive=true" claim="[{&quot;id&quot;:&quot;e12b21d777120010ca3ab5b26810619a&quot;,&quot;timestamp&quot;:1579284767679,&quot;version&quot;:&quot;1.0.0&quot;},{&quot;id&quot;:&quot;global&quot;,&quot;timestamp&quot;:1579284767666,&quot;version&quot;:&quot;1.0.0&quot;}]" default="/" label="Domain Path" max_length="255" name="sys_domain_path" type="domain_path"/>
+        <element claim="[{&quot;id&quot;:&quot;e12b21d777120010ca3ab5b26810619a&quot;,&quot;timestamp&quot;:1579284772327,&quot;version&quot;:&quot;1.0.0&quot;},{&quot;id&quot;:&quot;com.snc.organization_extension&quot;,&quot;timestamp&quot;:1579284772321,&quot;version&quot;:&quot;1.0.0&quot;}]" label="Target" max_length="40" name="target_value" type="float"/>
+        <element attributes="encode_utf8=false" claim="[{&quot;id&quot;:&quot;e12b21d777120010ca3ab5b26810619a&quot;,&quot;timestamp&quot;:1579284772006,&quot;version&quot;:&quot;1.0.0&quot;},{&quot;id&quot;:&quot;com.snc.organization_extension&quot;,&quot;timestamp&quot;:1579284771998,&quot;version&quot;:&quot;1.0.0&quot;}]" label="Task" max_length="32" name="task" reference="task" reference_cascade_rule="delete" type="reference"/>
+        <element attributes="encode_utf8=false" claim="[{&quot;id&quot;:&quot;e12b21d777120010ca3ab5b26810619a&quot;,&quot;timestamp&quot;:1579284774718,&quot;version&quot;:&quot;1.0.0&quot;},{&quot;id&quot;:&quot;com.snc.organization_extension&quot;,&quot;timestamp&quot;:1579284774710,&quot;version&quot;:&quot;1.0.0&quot;}]" hint="Specifies the unit of measurement to be used for the target." label="Unit" max_length="32" name="unit" reference="pa_units" type="reference"/>
+        <index name="index">
+            <element name="unit"/>
+        </index>
+        <index name="index2">
+            <element name="task"/>
+        </index>
+        <index name="index3">
+            <element name="sys_domain"/>
+        </index>
+        <index name="index4">
+            <element name="goal_owner"/>
+        </index>
+        <index name="index5">
+            <element name="sys_domain_path"/>
+        </index>
+    </element>
+</database>

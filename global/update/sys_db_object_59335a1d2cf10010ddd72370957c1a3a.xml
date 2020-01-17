@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access/>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <claim>[{"id":"e12b21d777120010ca3ab5b26810619a","timestamp":1579284704515,"version":"1.0.0"},{"id":"com.snc.organization_extension","timestamp":1579284704506,"version":"1.0.0"}]</claim>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Goal</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>goal</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2019-12-17 18:43:55</sys_created_on>
+        <sys_id>59335a1d2cf10010ddd72370957c1a3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Goal</sys_name>
+        <sys_package display_value="Global Table1" source="e12b21d777120010ca3ab5b26810619a">e12b21d777120010ca3ab5b26810619a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Table1">e12b21d777120010ca3ab5b26810619a</sys_scope>
+        <sys_update_name>sys_db_object_59335a1d2cf10010ddd72370957c1a3a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-17 18:11:44</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>
